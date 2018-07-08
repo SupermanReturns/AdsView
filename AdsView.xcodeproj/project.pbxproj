@@ -15,6 +15,7 @@
 		CF33A00520F22B3F005E0A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A00420F22B3F005E0A51 /* main.m */; };
 		CF33A00F20F22B3F005E0A51 /* AdsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A00E20F22B3F005E0A51 /* AdsViewTests.m */; };
 		CF33A01A20F22B3F005E0A51 /* AdsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A01920F22B3F005E0A51 /* AdsViewUITests.m */; };
+		CF33A02920F23334005E0A51 /* AdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A02820F23334005E0A51 /* AdsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF33A01520F22B3F005E0A51 /* AdsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF33A01920F22B3F005E0A51 /* AdsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsViewUITests.m; sourceTree = "<group>"; };
 		CF33A01B20F22B3F005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF33A02720F23334005E0A51 /* AdsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdsView.h; sourceTree = "<group>"; };
+		CF33A02820F23334005E0A51 /* AdsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				CF339FF520F22B3C005E0A51 /* AppDelegate.h */,
 				CF339FF620F22B3C005E0A51 /* AppDelegate.m */,
+				CF33A02720F23334005E0A51 /* AdsView.h */,
+				CF33A02820F23334005E0A51 /* AdsView.m */,
 				CF339FF820F22B3C005E0A51 /* ViewController.h */,
 				CF339FF920F22B3C005E0A51 /* ViewController.m */,
 				CF339FFB20F22B3C005E0A51 /* Main.storyboard */,
@@ -265,6 +270,7 @@
 				CF339FFA20F22B3C005E0A51 /* ViewController.m in Sources */,
 				CF33A00520F22B3F005E0A51 /* main.m in Sources */,
 				CF339FF720F22B3C005E0A51 /* AppDelegate.m in Sources */,
+				CF33A02920F23334005E0A51 /* AdsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
