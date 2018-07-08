@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF339FF720F22B3C005E0A51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339FF620F22B3C005E0A51 /* AppDelegate.m */; };
+		CF339FFA20F22B3C005E0A51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF339FF920F22B3C005E0A51 /* ViewController.m */; };
+		CF339FFD20F22B3C005E0A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF339FFB20F22B3C005E0A51 /* Main.storyboard */; };
+		CF339FFF20F22B3F005E0A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF339FFE20F22B3F005E0A51 /* Assets.xcassets */; };
+		CF33A00220F22B3F005E0A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF33A00020F22B3F005E0A51 /* LaunchScreen.storyboard */; };
+		CF33A00520F22B3F005E0A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A00420F22B3F005E0A51 /* main.m */; };
+		CF33A00F20F22B3F005E0A51 /* AdsViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A00E20F22B3F005E0A51 /* AdsViewTests.m */; };
+		CF33A01A20F22B3F005E0A51 /* AdsViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33A01920F22B3F005E0A51 /* AdsViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF33A00B20F22B3F005E0A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF339FEA20F22B3C005E0A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF339FF120F22B3C005E0A51;
+			remoteInfo = AdsView;
+		};
+		CF33A01620F22B3F005E0A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF339FEA20F22B3C005E0A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF339FF120F22B3C005E0A51;
+			remoteInfo = AdsView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF339FF220F22B3C005E0A51 /* AdsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF339FF520F22B3C005E0A51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF339FF620F22B3C005E0A51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF339FF820F22B3C005E0A51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF339FF920F22B3C005E0A51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF339FFC20F22B3C005E0A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF339FFE20F22B3F005E0A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF33A00120F22B3F005E0A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF33A00320F22B3F005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF33A00420F22B3F005E0A51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF33A00A20F22B3F005E0A51 /* AdsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF33A00E20F22B3F005E0A51 /* AdsViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsViewTests.m; sourceTree = "<group>"; };
+		CF33A01020F22B3F005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF33A01520F22B3F005E0A51 /* AdsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF33A01920F22B3F005E0A51 /* AdsViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsViewUITests.m; sourceTree = "<group>"; };
+		CF33A01B20F22B3F005E0A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF339FEF20F22B3C005E0A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A00720F22B3F005E0A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A01220F22B3F005E0A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF339FE920F22B3C005E0A51 = {
+			isa = PBXGroup;
+			children = (
+				CF339FF420F22B3C005E0A51 /* AdsView */,
+				CF33A00D20F22B3F005E0A51 /* AdsViewTests */,
+				CF33A01820F22B3F005E0A51 /* AdsViewUITests */,
+				CF339FF320F22B3C005E0A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF339FF320F22B3C005E0A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF339FF220F22B3C005E0A51 /* AdsView.app */,
+				CF33A00A20F22B3F005E0A51 /* AdsViewTests.xctest */,
+				CF33A01520F22B3F005E0A51 /* AdsViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF339FF420F22B3C005E0A51 /* AdsView */ = {
+			isa = PBXGroup;
+			children = (
+				CF339FF520F22B3C005E0A51 /* AppDelegate.h */,
+				CF339FF620F22B3C005E0A51 /* AppDelegate.m */,
+				CF339FF820F22B3C005E0A51 /* ViewController.h */,
+				CF339FF920F22B3C005E0A51 /* ViewController.m */,
+				CF339FFB20F22B3C005E0A51 /* Main.storyboard */,
+				CF339FFE20F22B3F005E0A51 /* Assets.xcassets */,
+				CF33A00020F22B3F005E0A51 /* LaunchScreen.storyboard */,
+				CF33A00320F22B3F005E0A51 /* Info.plist */,
+				CF33A00420F22B3F005E0A51 /* main.m */,
+			);
+			path = AdsView;
+			sourceTree = "<group>";
+		};
+		CF33A00D20F22B3F005E0A51 /* AdsViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF33A00E20F22B3F005E0A51 /* AdsViewTests.m */,
+				CF33A01020F22B3F005E0A51 /* Info.plist */,
+			);
+			path = AdsViewTests;
+			sourceTree = "<group>";
+		};
+		CF33A01820F22B3F005E0A51 /* AdsViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF33A01920F22B3F005E0A51 /* AdsViewUITests.m */,
+				CF33A01B20F22B3F005E0A51 /* Info.plist */,
+			);
+			path = AdsViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF339FF120F22B3C005E0A51 /* AdsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF33A01E20F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsView" */;
+			buildPhases = (
+				CF339FEE20F22B3C005E0A51 /* Sources */,
+				CF339FEF20F22B3C005E0A51 /* Frameworks */,
+				CF339FF020F22B3C005E0A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdsView;
+			productName = AdsView;
+			productReference = CF339FF220F22B3C005E0A51 /* AdsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF33A00920F22B3F005E0A51 /* AdsViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF33A02120F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsViewTests" */;
+			buildPhases = (
+				CF33A00620F22B3F005E0A51 /* Sources */,
+				CF33A00720F22B3F005E0A51 /* Frameworks */,
+				CF33A00820F22B3F005E0A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF33A00C20F22B3F005E0A51 /* PBXTargetDependency */,
+			);
+			name = AdsViewTests;
+			productName = AdsViewTests;
+			productReference = CF33A00A20F22B3F005E0A51 /* AdsViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF33A01420F22B3F005E0A51 /* AdsViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF33A02420F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsViewUITests" */;
+			buildPhases = (
+				CF33A01120F22B3F005E0A51 /* Sources */,
+				CF33A01220F22B3F005E0A51 /* Frameworks */,
+				CF33A01320F22B3F005E0A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF33A01720F22B3F005E0A51 /* PBXTargetDependency */,
+			);
+			name = AdsViewUITests;
+			productName = AdsViewUITests;
+			productReference = CF33A01520F22B3F005E0A51 /* AdsViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF339FEA20F22B3C005E0A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Superman;
+				TargetAttributes = {
+					CF339FF120F22B3C005E0A51 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CF33A00920F22B3F005E0A51 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CF339FF120F22B3C005E0A51;
+					};
+					CF33A01420F22B3F005E0A51 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CF339FF120F22B3C005E0A51;
+					};
+				};
+			};
+			buildConfigurationList = CF339FED20F22B3C005E0A51 /* Build configuration list for PBXProject "AdsView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF339FE920F22B3C005E0A51;
+			productRefGroup = CF339FF320F22B3C005E0A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF339FF120F22B3C005E0A51 /* AdsView */,
+				CF33A00920F22B3F005E0A51 /* AdsViewTests */,
+				CF33A01420F22B3F005E0A51 /* AdsViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF339FF020F22B3C005E0A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF33A00220F22B3F005E0A51 /* LaunchScreen.storyboard in Resources */,
+				CF339FFF20F22B3F005E0A51 /* Assets.xcassets in Resources */,
+				CF339FFD20F22B3C005E0A51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A00820F22B3F005E0A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A01320F22B3F005E0A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF339FEE20F22B3C005E0A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF339FFA20F22B3C005E0A51 /* ViewController.m in Sources */,
+				CF33A00520F22B3F005E0A51 /* main.m in Sources */,
+				CF339FF720F22B3C005E0A51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A00620F22B3F005E0A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF33A00F20F22B3F005E0A51 /* AdsViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33A01120F22B3F005E0A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF33A01A20F22B3F005E0A51 /* AdsViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF33A00C20F22B3F005E0A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF339FF120F22B3C005E0A51 /* AdsView */;
+			targetProxy = CF33A00B20F22B3F005E0A51 /* PBXContainerItemProxy */;
+		};
+		CF33A01720F22B3F005E0A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF339FF120F22B3C005E0A51 /* AdsView */;
+			targetProxy = CF33A01620F22B3F005E0A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF339FFB20F22B3C005E0A51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF339FFC20F22B3C005E0A51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF33A00020F22B3F005E0A51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF33A00120F22B3F005E0A51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF33A01C20F22B3F005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF33A01D20F22B3F005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF33A01F20F22B3F005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF33A02020F22B3F005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF33A02220F22B3F005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsView.app/AdsView";
+			};
+			name = Debug;
+		};
+		CF33A02320F22B3F005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdsView.app/AdsView";
+			};
+			name = Release;
+		};
+		CF33A02520F22B3F005E0A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdsView;
+			};
+			name = Debug;
+		};
+		CF33A02620F22B3F005E0A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdsViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.AdsViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdsView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF339FED20F22B3C005E0A51 /* Build configuration list for PBXProject "AdsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF33A01C20F22B3F005E0A51 /* Debug */,
+				CF33A01D20F22B3F005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF33A01E20F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF33A01F20F22B3F005E0A51 /* Debug */,
+				CF33A02020F22B3F005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF33A02120F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF33A02220F22B3F005E0A51 /* Debug */,
+				CF33A02320F22B3F005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF33A02420F22B3F005E0A51 /* Build configuration list for PBXNativeTarget "AdsViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF33A02520F22B3F005E0A51 /* Debug */,
+				CF33A02620F22B3F005E0A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF339FEA20F22B3C005E0A51 /* Project object */;
+}
