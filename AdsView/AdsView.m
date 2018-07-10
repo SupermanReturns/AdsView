@@ -213,6 +213,7 @@
     
     closeButton.bounds                 = CGRectMake(0, 0,CloseButton_Width,CloseButton_Width);
     closeButton.center                 = CGPointMake(CGRectGetMaxX(mainContainView.frame) - closeButton.bounds.size.width/2, -closeButton.frame.size.height);
+    
     closeButton.layer.cornerRadius     = closeButton.frame.size.width/2;
     closeButton.clipsToBounds          = YES;
     [closeButton addTarget:self
