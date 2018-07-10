@@ -37,6 +37,7 @@
     _scrollView.showsVerticalScrollIndicator   = YES;
     _scrollView.delegate                       = self;
     [self addSubview:_scrollView];
+
 }
 - (void)layoutSubviews{
     
@@ -149,7 +150,7 @@
     [self addGestureRecognizer:tapGesture];
     
     mainContainView                    = [[AdsContainerView alloc] initWithFrame:CGRectZero];
-    mainContainView.backgroundColor    = [UIColor whiteColor];
+    mainContainView.backgroundColor    = [UIColor cyanColor];
     mainContainView.scrollViewIndex    = ^(long index){
         _selectIndex = index;
     };
